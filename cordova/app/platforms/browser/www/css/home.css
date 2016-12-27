@@ -1,0 +1,35 @@
+#home .main-container {
+  height: 100%;
+}
+#home .main-container .home-title {
+  height: 20%;
+}
+#home .main-container .swipers-wrapper {
+  height: 80%;
+}
+#home .main-container .swipers-wrapper .swiper-container {
+  height: 20%;
+  background-size: cover;
+}
+#home .main-container .swipers-wrapper .swiper-container.slide-container-1 {
+  background-image: url('/images/food-collection/food-05.jpg');
+}
+#home .main-container .swipers-wrapper .swiper-container.slide-container-2 {
+  background-image: url('/images/food-collection/fresh_food1.jpg');
+}
+#home .main-container .swipers-wrapper .swiper-container.slide-container-3 {
+  background-image: url('/images/food-collection/bakery-display.jpg');
+}
+#home .main-container .swipers-wrapper .swiper-container.slide-container-4 {
+  background-image: url('/images/food-collection/Nuts.jpg');
+}
+#home .main-container .swipers-wrapper .swiper-container .swiper-slide {
+  color: wheat;
+  font-size: 24px;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+  padding: 25px;
+}
+#home .main-container .swipers-wrapper .swiper-container .swiper-slide.slide-1 {
+  background-color: rgba(0, 0, 0, 0.49);
+}

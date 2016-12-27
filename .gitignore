@@ -1,0 +1,13 @@
+node_modules
+dist
+app/bower_components
+app/bundles
+cordova/React-Cordova-F7 Starterkit/platforms
+*.log
+
+# IDEA
+.idea/
+*.iml
+
+# OSX
+.DS_Store
