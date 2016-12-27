@@ -1,6 +1,9 @@
 # React-Cordova-F7 Starterkit
 
-React-Cordova Starterkit provides a prepared development environment for creating fest mobile hybrid application using react, and compile it to cordova in one click. 
+React-Cordova Starterkit provides a prepared fest development environment for creating mobile hybrid application using react and framework7.
+
+React-Cordova Starterkit does all-at-once compilation both for web and cordova, runs a liveload  web server, and creats an apk.
+
 the Starterkit is based on [react-f7-starterkit](https://github.com/dburdick/react-f7-starterkit.git) using [gulp](https://github.com/gulpjs/gulp), [stylus](https://github.com/LearnBoost/stylus) and [webpack](https://github.com/webpack/webpack). 
 The internal data flow is handled with  [Reflux](https://github.com/spoike/refluxjs) and the routing is managed with the [React-Router](https://github.com/rackt/react-router). 
 The UI is handled by [Framework7](http://www.idangero.us/framework7). This is just a slight addition to [react-starterkit](https://github.com/wbkd/react-starterkit). 
