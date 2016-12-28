@@ -179,6 +179,22 @@ gulp.task('preBuildCordova', ['images', 'html', 'lib', 'scripts', 'styles', 'fon
   });
 });
 
+gulp.task('buildCordovaDist', function(){
+  process.chdir(cordovaRoot);
+  cordova.build({
+    "platforms": ["android"],
+    "options": ["--debug", "--release"]
+  }, function () {
+
+    gulp.start(['copyApk'], function () {
+      console.log('-----------');
+      console.log('cordova ready');
+      console.log('-----------');
+    });
+
+  });
+});
+
 gulp.task('copyApk', function () {
   process.chdir('../../');
 
@@ -186,6 +202,6 @@ gulp.task('copyApk', function () {
   currTime = currTime.substring(3, currTime.length - 3);
 
   return gulp.src(cordovaApk + '/*.apk')
-    .pipe(rename("React-Cordova-F7 Starterkit-" + currTime + ".apk"))
+    .pipe(rename("app-" + currTime + ".apk"))
     .pipe(gulp.dest(dist + 'apk/'));
 });

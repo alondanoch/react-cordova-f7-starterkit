@@ -16,6 +16,20 @@ Install all dependencies.
 $ npm install
 ```
 
+Install gulp. 
+
+```
+$ npm install -g gulp
+```
+
+Install Cordova 
+
+```
+$ npm install -g cordova
+```
+make sure to install Java & Android sdk (assuming you are developing for android), otherwise cordova build won't work.
+best way to install Android sdk is with the [android studio](https://developer.android.com/studio/install.html). once the sdk is installed, remember to set the `ANDROID_HOME` environment variable.
+
 
 ## Development
 
@@ -49,7 +63,6 @@ You can run the tests that are defined under [app/scripts/\_\_tests__](./app/scr
 
 ```
 $ npm test
-
 ```
 
 In order to test files that are using the react-router we had to add [stubRouterContext.jsx](./test-utils/stubRouterContext.jsx) which we found [here](https://github.com/rackt/react-router/blob/master/docs/guides/testing.md). 

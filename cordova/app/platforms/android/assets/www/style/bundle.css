@@ -38,19 +38,19 @@
 }
 
 #home .main-container .swipers-wrapper .swiper-container.slide-container-1 {
-  background-image: url("/img/food-05.jpg");
+  background-image: url("../../../../../img/food-05.jpg");
 }
 
 #home .main-container .swipers-wrapper .swiper-container.slide-container-2 {
-  background-image: url("/img/fresh_food1.jpg");
+  background-image: url("../../../../../img/fresh_food1.jpg");
 }
 
 #home .main-container .swipers-wrapper .swiper-container.slide-container-3 {
-  background-image: url("/img/bakery-display.jpg");
+  background-image: url("../../../../../img/bakery-display.jpg");
 }
 
 #home .main-container .swipers-wrapper .swiper-container.slide-container-4 {
-  background-image: url("/img/Nuts.jpg");
+  background-image: url("../../../../../img/Nuts.jpg");
 }
 
 #home .main-container .swipers-wrapper .swiper-container .swiper-slide {
